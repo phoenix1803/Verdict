@@ -1,0 +1,27 @@
+# Workspace
+.DS_Store
+Thumbs.db
+*.log
+
+# Keep release binaries out of source control
+*.apk
+*.aab
+
+# React Native app in Verdict/
+Verdict/node_modules/
+Verdict/npm-debug.log*
+Verdict/yarn-error.log*
+Verdict/.idea/
+Verdict/.gradle/
+Verdict/android/.gradle/
+Verdict/android/app/build/
+Verdict/android/build/
+Verdict/android/local.properties
+Verdict/android/.cxx/
+Verdict/ios/Pods/
+Verdict/ios/build/
+Verdict/ios/.xcode.env.local
+Verdict/coverage/
+Verdict/.metro-health-check*
+Verdict/vendor/bundle/
+Verdict/DerivedData/
