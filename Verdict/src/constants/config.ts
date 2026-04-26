@@ -1,5 +1,7 @@
+import {GEMINI_API_KEY as GEMINI_API_KEY_ENV} from '@env';
+
 export const CONFIG = {
-    GEMINI_API_KEY: 'AIzaSyBGceCR7PkcH4xJzf2_pnX2R5lc4MjrNeQ',
+    GEMINI_API_KEY: GEMINI_API_KEY_ENV || '',
     MODELS: {
         LOCAL: 'google/functiongemma-270m-it',
         CLOUD: 'gemini-1.5-flash',
