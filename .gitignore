@@ -25,3 +25,4 @@ Verdict/coverage/
 Verdict/.metro-health-check*
 Verdict/vendor/bundle/
 Verdict/DerivedData/
+Verdict/.env
